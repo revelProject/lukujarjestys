@@ -62,28 +62,28 @@ public class MainWindow {
 		lblAssfjadgjadiogkad.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblAssfjadgjadiogkad);
 		
-		Component horizontalStrut_7 = Box.createHorizontalStrut(50);
+		Component horizontalStrut_7 = Box.createHorizontalStrut(150);
 		panel.add(horizontalStrut_7);
 		
 		JLabel lblTi = new JLabel("Ti");
 		lblTi.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblTi);
 		
-		Component horizontalStrut_8 = Box.createHorizontalStrut(50);
+		Component horizontalStrut_8 = Box.createHorizontalStrut(150);
 		panel.add(horizontalStrut_8);
 		
 		JLabel lblKe = new JLabel("Ke");
 		lblKe.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblKe);
 		
-		Component horizontalStrut_9 = Box.createHorizontalStrut(50);
+		Component horizontalStrut_9 = Box.createHorizontalStrut(150);
 		panel.add(horizontalStrut_9);
 		
 		JLabel lblTo = new JLabel("To");
 		lblTo.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblTo);
 		
-		Component horizontalStrut_10 = Box.createHorizontalStrut(50);
+		Component horizontalStrut_10 = Box.createHorizontalStrut(150);
 		panel.add(horizontalStrut_10);
 		
 		JLabel lblPe = new JLabel("Pe");
