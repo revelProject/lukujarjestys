@@ -58,35 +58,35 @@ public class MainWindow {
 		JPanel panel = new JPanel();
 		frame.getContentPane().add(panel, BorderLayout.NORTH);
 		
-		Component horizontalStrut_11 = Box.createHorizontalStrut(90);
+		Component horizontalStrut_11 = Box.createHorizontalStrut(120);
 		panel.add(horizontalStrut_11);
 		
 		JLabel lblAssfjadgjadiogkad = new JLabel("Ma");
 		lblAssfjadgjadiogkad.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblAssfjadgjadiogkad);
 		
-		Component horizontalStrut_7 = Box.createHorizontalStrut(120);
+		Component horizontalStrut_7 = Box.createHorizontalStrut(130);
 		panel.add(horizontalStrut_7);
 		
 		JLabel lblTi = new JLabel("Ti");
 		lblTi.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblTi);
 		
-		Component horizontalStrut_8 = Box.createHorizontalStrut(120);
+		Component horizontalStrut_8 = Box.createHorizontalStrut(100);
 		panel.add(horizontalStrut_8);
 		
 		JLabel lblKe = new JLabel("Ke");
 		lblKe.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblKe);
 		
-		Component horizontalStrut_9 = Box.createHorizontalStrut(120);
+		Component horizontalStrut_9 = Box.createHorizontalStrut(100);
 		panel.add(horizontalStrut_9);
 		
 		JLabel lblTo = new JLabel("To");
 		lblTo.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel.add(lblTo);
 		
-		Component horizontalStrut_10 = Box.createHorizontalStrut(120);
+		Component horizontalStrut_10 = Box.createHorizontalStrut(100);
 		panel.add(horizontalStrut_10);
 		
 		JLabel lblPe = new JLabel("Pe");
@@ -95,6 +95,49 @@ public class MainWindow {
 		
 		JPanel panel_1 = new JPanel();
 		frame.getContentPane().add(panel_1, BorderLayout.CENTER);
+		panel_1.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_4 = new JPanel();
+		panel_1.add(panel_4, BorderLayout.WEST);
+		
+		Component horizontalStrut_12 = Box.createHorizontalStrut(130);
+		panel_4.add(horizontalStrut_12);
+		
+		JPanel panel_5 = new JPanel();
+		panel_1.add(panel_5, BorderLayout.CENTER);
+		panel_5.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_6 = new JPanel();
+		panel_5.add(panel_6, BorderLayout.WEST);
+		
+		Component horizontalStrut_13 = Box.createHorizontalStrut(130);
+		panel_6.add(horizontalStrut_13);
+		
+		JPanel panel_7 = new JPanel();
+		panel_5.add(panel_7, BorderLayout.CENTER);
+		panel_7.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_8 = new JPanel();
+		panel_7.add(panel_8, BorderLayout.WEST);
+		
+		Component horizontalStrut_14 = Box.createHorizontalStrut(130);
+		panel_8.add(horizontalStrut_14);
+		
+		JPanel panel_9 = new JPanel();
+		panel_7.add(panel_9, BorderLayout.CENTER);
+		panel_9.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_10 = new JPanel();
+		panel_9.add(panel_10, BorderLayout.WEST);
+		
+		Component horizontalStrut_15 = Box.createHorizontalStrut(130);
+		panel_10.add(horizontalStrut_15);
+		
+		JPanel panel_11 = new JPanel();
+		panel_9.add(panel_11, BorderLayout.CENTER);
+		
+		Component horizontalStrut_16 = Box.createHorizontalStrut(130);
+		panel_11.add(horizontalStrut_16);
 		
 		JPanel panel_2 = new JPanel();
 		frame.getContentPane().add(panel_2, BorderLayout.WEST);
