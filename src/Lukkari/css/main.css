@@ -12,6 +12,15 @@ a { text-decoration: none; margin: 0 10px; }
 	text-align: center;
 }
 
+.hero-unit {
+	/*width: 100%;
+	text-align: center;*/
+	width:100%;
+    margin:0 auto;
+    display:inline-block;
+    text-align:center;
+}
+
 a.btn {
 	display: inline-block;
 	color: #666;
